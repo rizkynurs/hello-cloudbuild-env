@@ -41,6 +41,7 @@ steps:
     path: /root/.ssh
 
 # Clone the repository
+# rns
 - name: 'gcr.io/cloud-builders/git'
   args:
   - clone
